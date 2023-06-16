@@ -23,6 +23,10 @@ body {
     background-color: #ffcc5e;
 }
 
+.carousel-item img {
+    width: 100vw;
+}
+
 .section-title {
     font-family: Pacifico, cursive;
 }
@@ -69,7 +73,6 @@ body {
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
-        width: 100%;
     }
 
     #menu-navegacao, #eventos img, #cardapio nav, 
@@ -80,9 +83,6 @@ body {
 }
 
 @media (max-width: 1023px) {    
-    .carousel-item img {
-        width: 100%;
-    }
 
     #foto-restaurante {
         height: 95%;
